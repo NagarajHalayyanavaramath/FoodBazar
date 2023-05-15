@@ -63,7 +63,7 @@ body {
   border: none;
   background: none;
   cursor: pointer;
-  /* display: none; */
+  display: none;
 }
 .icon-mobile {
   height: 4.8rem;
