@@ -49,4 +49,34 @@ const obs = new IntersectionObserver(
     rootMargin: "-80px",
   }
 );
+
 obs.observe(sectionMainEl);
+
+const gallery = document.getElementById("glery");
+
+const images = [
+  "images/section-4/food1-min.jpg",
+  "images/section-4/food2-min.jpg",
+  "images/section-4/food3-min.jpg",
+  "images/section-4/food4-min.jpg",
+  "images/section-4/food5-min.jpg",
+  "images/section-4/food6-min.jpg",
+  "images/section-4/food7-min.jpg",
+  "images/section-4/food8-min.jpg",
+  "images/section-4/food9-min.jpg",
+  "images/section-4/food10-min.jpg",
+  "images/section-4/food11-min.jpg",
+  "images/section-4/food12-min.jpg",
+];
+
+for (let i = 0; i < 12; i++) {
+  let figure = document.createElement("figure");
+  let img = document.createElement("img");
+  img.src = images[i];
+
+  figure.appendChild(img);
+  gallery.appendChild(figure);
+}
+
+//testimonials
+const testimonials = document.getElementById("testimonials");
