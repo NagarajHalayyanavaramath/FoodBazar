@@ -77,6 +77,3 @@ for (let i = 0; i < 12; i++) {
   figure.appendChild(img);
   gallery.appendChild(figure);
 }
-
-//testimonials
-const testimonials = document.getElementById("testimonials");

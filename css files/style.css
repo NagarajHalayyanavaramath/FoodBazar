@@ -33,6 +33,10 @@ body {
   display: flex;
   align-items: center;
 }
+.theme {
+  width: 2.4rem;
+  height: 2.4rem;
+}
 .nav--items:link,
 .nav--items:visited {
   display: inline-block;
@@ -88,7 +92,6 @@ body {
 .sticky .main--section {
   margin-bottom: 9.6rem;
 }
-/***************************************************************/
 .main--section {
   padding: 4.6rem 0 9.6rem 0;
   background-color: #f1f3f5;
